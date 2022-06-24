@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     fetchMovies();
-  }, );
+  },[] );
 
   const fetchMovies = async (event) => {
     if (event) {
